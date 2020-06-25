@@ -1,4 +1,4 @@
-# shell
+# bash
 Things to know about bash scripting.
 
 ## Return Codes / Exit Statuses
