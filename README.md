@@ -12,3 +12,27 @@ Documentation on error codes can be found via man.
 echo "$?"
 ```
 Returns the return code of the previously executed command.
+
+## Chaining commands
+There are are different operators to chain commands in bash.
+
+```
+;
+```
+Will execute both commands. No matter what.
+```
+&&
+```
+Will execute the second command only if the first one succeeded.
+```
+||
+```
+Will execute the second command only if the first one fails.
+```
+|
+```
+Taking the first commands output as the second commands input.
+```
+&
+```
+The second command wont wait for the first one to execute.
