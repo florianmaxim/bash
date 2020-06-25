@@ -19,7 +19,7 @@ There are are different operators to chain commands in bash.
 ```
 ;
 ```
-Will execute both commands. No matter what.
+Will execute both commands unless the first one exits.
 ```
 &&
 ```
