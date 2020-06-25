@@ -36,3 +36,14 @@ Taking the first commands output as the second commands input.
 &
 ```
 The second command wont wait for the first one to execute.
+
+## Variable Scope
+
+There are global variables in bash, as well as local variables within functions.
+
+Variables can be declared with a function scope using the *local* keyword.
+Otherwise variables are declared in a global scope.
+
+´´´
+local VARIABLE
+´´´
